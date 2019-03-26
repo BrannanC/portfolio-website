@@ -143,3 +143,7 @@
 			});
 
 })(jQuery);
+
+const clipEmail = () => {
+	navigator.clipboard.writeText('brannanconrad@gmail.com')
+}

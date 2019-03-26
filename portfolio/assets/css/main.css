@@ -4108,3 +4108,7 @@ input, select, textarea {
 		}
 
 	}
+
+	i {
+		cursor: pointer;
+	}
