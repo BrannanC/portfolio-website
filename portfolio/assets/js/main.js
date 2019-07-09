@@ -108,12 +108,11 @@
 					event.stopPropagation();
 				})
 				.on('click', 'a', function(event) {
-
+					if(event.target.target === '_blank') return;
 					var href = $(this).attr('href');
 
 					event.preventDefault();
 					event.stopPropagation();
-
 					// Hide.
 						$menu._hide();
 
