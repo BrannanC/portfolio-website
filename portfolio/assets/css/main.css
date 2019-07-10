@@ -3931,6 +3931,7 @@ input, select, textarea {
 				.wrapper.spotlight .image {
 					width: 19em;
 					margin: 0 1.75em 2em 0;
+					display: none;
 				}
 
 				.wrapper.spotlight:nth-child(2n - 1) .image {
@@ -4016,4 +4017,9 @@ input, select, textarea {
 
 	i {
 		cursor: pointer;
+	}
+
+	.techs p {
+		word-spacing: 1rem;
+		letter-spacing: 2px;
 	}
